@@ -1,0 +1,204 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Montserrat", sans-serif;
+    max-width: 1000px;
+    margin: 10px auto;
+    
+    background-color: rgb(139 247 255);
+}
+
+.section__header {
+    margin: 15px;
+}
+
+.header {
+    color: rgb(6, 6, 90);
+    text-align: center;
+}
+
+.font--style--normal {
+    font-style: normal;
+}
+
+.button {
+    margin-left: 15px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-color: rgba(232, 221, 177, 0.78);
+    font-weight: 600;
+    color: black;
+    background-color: rgb(69, 222, 245);
+    cursor: pointer;
+}
+
+.navigation__list {
+    list-style: none;
+    line-height: 1.5;
+    padding-left: 0px;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: auto;
+    padding-bottom: 10px;
+}
+
+.table {
+    overflow-x: auto;
+    margin-top: 5px;
+    border: 2px black solid;
+    border-collapse: collapse;
+    background-color: rgb(139, 236, 241);
+    color: black;
+    margin: 5px auto;
+}
+
+.table__cell {
+    border: 2px black solid;
+    padding: 10px;
+}
+
+.table__cell--header {
+    background-color: rgb(69, 222, 245);
+}
+
+.table__row:nth-child(even) {
+    background-color: rgb(108, 215, 231);
+}
+
+.table__row:hover {
+    background-color: rgb(155 231 230);
+    color: #2828b9;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.navigation__link {
+    border-radius: 3px;
+    border: 1px dashed rgba(10, 16, 124, 0.099);
+    background-color: rgb(69, 222, 245);
+    box-shadow: 2px 2px 3px 1px rgb(23, 145, 163);
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    background-color: rgb(12, 222, 245);
+}
+
+.navigation__link--dark:hover {
+    color: #000062;
+    background-color: #efebe6;
+}
+
+
+.navigation__link:active {
+    background-color: rgb(0, 200, 245);
+}
+
+.section__link {
+    border-radius: 3px;
+    border: 1px dashed rgba(10, 16, 124, 0.099);
+    background-color: rgb(69, 222, 245);
+    box-shadow: 2px 2px 3px 1px rgb(23, 145, 163);
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section__link:hover {
+    background-color: rgb(12, 222, 245);
+}
+
+.section__link:active {
+    background-color: rgb(0, 200, 245);
+}
+
+.dark {
+    font-weight: 600;
+    color: #efebe6;
+    background-color: #000062;
+    border-color: #27ecf7;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    font-family: monospace;
+}
+
+.section {
+    margin: 20px 30px;
+}
+
+.section__links {
+    margin-left: 50px;
+}
+
+.section__links:hover {
+    color: #c900ff;
+}
+
+.countdown {
+    border: 2px solid red;
+    width: 150px;
+    height: 15px;
+}
+
+.link--dark {
+    color: #efebe6;
+}
+
+.table__cell--link:hover {
+    color: #c900ff;
+}
+
+.navigation__ithem:hover {
+    background-color: rgb(155 231 230);
+}
+
+.button:hover {
+    background-color: #000062;
+    color: #efebe6;
+}
+
+.day {
+    font-weight: 600;
+}
+
+
+.section__form {
+    font-weight: 800;
+    margin-left: 20px;
+    color: #000062;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+.fieldset__list {
+    list-style: none;
+}
+
+.form__fieldset {
+    border: 3px solid rgb(69, 222, 245);
+    ;
+}
+
+
+.form__submit {
+    width: 100%;
+}

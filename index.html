@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca domowa moduł 3</title>
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="CSS/css.css" rel="stylesheet">
+    <script defer src="JS/js.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <header id="header" class="header">
+        <!--     Wiem, że powrót do menu powinien odnosić się do menu ale w tym przypadku menu jest na górze strony więc uznałem, że ładniej będzie nie ucinać nagłowka -->
+        <h1>Jestem Janek</h1>
+    </header>
+    <nav>
+        <ul class="navigation__list">
+            <li>
+                <a class="navigation__link" href="#o-mnie">O mnie</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#spoko-utwory-muzyczne">Spoko utwory muzyczne</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#moje-ulubione-filmy">Moje ulubione filmy</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#moje-hobby">Moje hobby</a>
+            </li>
+
+        </ul>
+    </nav>
+    <button class="button"><span class="theme__name">Ciemny</span> motyw</button>
+    <main>
+
+        <section class="section" id="o-mnie">
+            <h2 class="section__header">O mnie</h2>
+            <p>
+                Nazywam się Janek, moją życiową pasją jest <strong class="font--style--normal">żeglarstwo</strong> ale
+                <em class="font--style--normal">najbardziej</em> fascynuje mnie <b
+                    class="font--style--normal">windsurfing</b>. Jestem instruktorem windsurfingu.
+                Szkolę na wyjazdach zgranicznych oraz na Jeziorze Zegrzyńskim.
+                Przez 7 lat startów w zawodach dorobiłem się kilkunastu medali w Polsce i na świecie zarówno w
+                windsurfingu jak i windsurfingu lodowym.
+            </p>
+        </section>
+        <a class="section__link" href="#header">Powrót do menu</a>
+
+        <section class="section">
+            <h2 class="section__header" id="spoko-utwory-muzyczne">Spoko utwory muzyczne</h2>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Nie ulubieni ale spoko wykonawcy i utwory</caption>
+                    <tr class="table__row">
+                        <th scope="col" class="table__cell table__cell--header">Wykonawca</th>
+                        <th scope="col" class="table__cell table__cell--header">Album</th>
+                        <th scope="col" class="table__cell table__cell--header">Rok wydania </th>
+                        <th scope="col" class="table__cell table__cell--header">Utwór</th>
+
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" rowspan="2" class="table__cell table__cell--header">Nirvana</th>
+                        <td rowspan="2" class="table__cell">Unplugged in New York</td>
+                        <td rowspan="2" class="table__cell">1993</td>
+                        <td class="table__cell">Plateau</td>
+                    </tr>
+                    <tr class="table__cell">
+                        <td class="table__cell">Something in the way</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" rowspan="3" class="table__cell table__cell--header">Hemp gru</th>
+                        <td class="table__cell">Klucz</td>
+                        <td class="table__cell">2003</td>
+                        <td class="table__cell">Jestem</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell"><a class="table__cell--link"
+                                href="https://www.youtube.com/watch?v=oqzTignky58" target="_blank"
+                                rel="noreferrer noopener">Droga</a></td>
+                        <td class="table__cell">2009</td>
+                        <td class="table__cell">Droga</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Jedność</td>
+                        <td class="table__cell">2011</td>
+                        <td class="table__cell">Obudź się</td>
+                    </tr>
+
+                </table>
+            </div>
+            <a class="section__link" href="#header">Powrót do menu</a>
+        </section>
+
+        <section class="section">
+            <h2 class="section__header" id="moje-ulubione-filmy">Moje ulubione filmy</h2>
+            <a class="section__links" href="https://en.wikipedia.org/wiki/Fast_%26_Furious#Films" target="_blank"
+                rel="noreferrer noopener">Moje ulubione filmy (otwiera się w nowej karcie)</a>
+
+        </section>
+
+        <section class="section">
+            <h2 class="section__header" id="moje-hobby">Moje hobby - windsurfing</h2>
+            <a href='https://postimg.cc/FkK25JrD' target='_blank'><img width="280"
+                    src='https://i.postimg.cc/8cdDvhqQ/windsurfing.jpg' border='0' alt='windsurfing' </a>
+                <p><a class="section__links"" href=" https://pl.wikipedia.org/wiki/Windsurfing" target="_blank"
+                        rel="noreferrer noopener">Przeczytaj
+                        więcej o windsurfingu (otwiera się w nowej karcie)</a></p>
+
+        </section>
+        <section class="section">
+            <h2 class="section__header">Ile Zostało</h2>
+            <p>Wpisz aktualny dzień tygodnia <span class="day">piątek</span></p>
+            <p>Zostało <strong class="howMuch"></strong> dni do Niedzieli.
+                </span></p>
+        </section>
+
+        <section class="section">
+            <form>
+                <p>pola wymagane oznaczone są *.</p>
+                <p>
+                    <label class="form__label">
+                        Imię*: <input required class="form__input" name="name" placeholder="wpisz imię">
+                    </label>
+                </p>
+                <!-- można też tak: -->
+                <p>
+                    <label class="form__label">
+                        <label for="surname">Nazwisko*:</label>
+                        <input required class="form__input" id="surname" name="surname" placeholder="wpisz nazwisko">
+                    </label>
+                </p>
+                <p>
+                    <input type="date">
+                </p>
+                <p>
+                    <label>Napisz kilka słów o sobie
+                        <textarea maxwidth="60px" name="description" cols="100" rows="2" maxlength="140"></textarea>
+                    </label>
+
+                <fieldset class="form__fieldset">
+                    <legend>Pole dla grupy</legend>
+                    <p>
+                        <label class="form__label">
+                            Ulubiona książka <input class="form__input" name="favoriteBook">
+                        </label>
+
+                    </p>
+                    <p>
+                        <label class="form__label">
+                            Pole tylko do odczytu <input class="form__input" mane="readonly" value="readonly" readonly>
+                        </label>
+                    </p>
+                    <p>
+                        <label class="form__label">
+                            Ulubiony wykonawca <input class="form__input" name="favotriteArtist"
+                                placeholder="Bas Tajpan">
+                        </label>
+                    </p>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <legend>checkboxy</legend>
+                    <ul class="fieldset__list">
+                        <li>
+                            <label class="form__label">
+                                <input class="form__input" type="checkbox" name="windsurfing" checked>Windsurfing
+                            </label>
+
+                        </li>
+                        <li>
+                            <label class="form__label">
+                                <input class="form__input" type="checkbox" name="kitesurfing">kitesurfing
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <legend>deskorolka czy rolki(radio)</legend>
+                    <ul class="fieldset__list">
+                        <li>
+                            <label class="form__label">
+                                <input class="form__input" type="radio" name="sportNaKolach" value="Deskorolka"
+                                    checked>Deskorolka
+                            </label>
+                        </li>
+                        <li>
+                            <label class="form__label">
+                                <input class="form__input" type="radio" name="sportNaKolach" value="Rolki">Rolki
+                            </label>
+                        </li>
+                    </ul>
+                    </label>
+                </fieldset>
+                <label class="form__label">
+                    Ulubiony sport
+                    <select size="1" name="favoriteSport" multiple>
+                        <option name="windsurfing">Windsurfing</option>
+                        <option name="kitesurfing">Kitesurfing</option>
+                        <option name="rower">Rower</option>
+                        <option name="snowboard" selected>Snowboard</option>
+                        <option name="zjazdNaJablku">Zjazd na jabłużku</option>
+                    </select>
+                </label>
+                <p>
+                    <input class="form__submit" type="submit" value="Zatwierdź!">
+                </p>
+
+            </form>
+        </section>
+    </main>
+    <footer class="footer">wzelkie prawa zastrzeżone</footer>
+
+<!-- bootstrap, csstailwind, tailwind, awwards -->
+
+</body>
+
+</html>
