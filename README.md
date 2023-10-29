@@ -1,6 +1,6 @@
 # Moja pierszwa strona
 
-Na wstępie zaznaczę, że dopiero się uczę więc strona jest **totalnie* surowa, będzioe ewoluować adekwatnie do moich postępów w nauce.
+Na wstępie zaznaczę, że dopiero się uczę więc strona jest **totalnie* surowa, będzie ewoluować adekwatnie do moich postępów w nauce.
 Pozdrawiam
 
 ## Demo:
