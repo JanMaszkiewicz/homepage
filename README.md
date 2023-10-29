@@ -5,6 +5,6 @@ Pozdrawiam
 
 ## Demo:
 
-[Sprawdź mnie]https://janmaszkiewicz.github.io/homepage/
+[Sprawdź mnie](https://janmaszkiewicz.github.io/homepage/)
 
 Pozdrawiam
