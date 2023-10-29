@@ -202,3 +202,9 @@ html {
 .form__submit {
     width: 100%;
 }
+
+.section__image {
+    width: 400px;
+    justify-content: center;
+    
+}
