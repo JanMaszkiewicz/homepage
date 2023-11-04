@@ -1,10 +1,11 @@
-# Moja pierszwa strona
+# Hi there!!
+## This is my first homepage 
 
-Na wstępie zaznaczę, że dopiero się uczę więc strona jest **totalnie* surowa, będzie ewoluować adekwatnie do moich postępów w nauce.
-Pozdrawiam
+I will point out at the outset that I am just learning so the site is **totally** raw, it will evolve accordingly to my learning progress.
+Thanks for visiting
 
 ## Demo:
 
-[Sprawdź mnie :)](https://janmaszkiewicz.github.io/homepage/)
+[Check me out :)](https://janmaszkiewicz.github.io/homepage/)
 
-Pozdrawiam
+Best regards
