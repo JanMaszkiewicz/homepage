@@ -116,10 +116,21 @@
 
         </section>
         <section class="section">
-            <h2 class="section__header">Ile Zostało</h2>
-            <p>Wpisz aktualny dzień tygodnia <span class="day">piątek</span></p>
-            <p>Zostało <strong class="howMuch"></strong> dni do Niedzieli.
-                </span></p>
+            <fieldset class="form__fieldset js-day">
+                <legend>Kiedy piątek?</legend>
+                <label>
+                    Wybierz aktualny dzień tygodnia<select class="day" size="1" name="today">
+                        <option value="poniedziałek">poniedziałek</option>
+                        <option value="wtorek">wtorek</option>
+                        <option value="środa">środa</option>
+                        <option value="czwartek">czwartek</option>
+                        <option value="piątek">piątek</option>
+                        <option value="sobota">sobota</option>
+                        <option value="niedziela">niedziela</option>
+                    </select>
+                </label>
+                <p>Za <span class="howMuch"></span> dni Piątek</p>
+            </fieldset>
         </section>
 
         <section class="section">
@@ -142,7 +153,8 @@
                 </p>
                 <p>
                     <label>Napisz kilka słów o sobie
-                        <textarea maxwidth="60px" name="description" cols="100" rows="2" maxlength="140"></textarea>
+                        <textarea class="form__textarea--resize" maxwidth="60px" name="description" cols="100" rows="2"
+                            maxlength="140"></textarea>
                     </label>
 
                 <fieldset class="form__fieldset">

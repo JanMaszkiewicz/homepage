@@ -198,6 +198,10 @@ html {
     ;
 }
 
+.form__textarea--resize {
+    resize: vertical;
+    max-height: 400px;
+}
 
 .form__submit {
     width: 100%;
@@ -205,6 +209,5 @@ html {
 
 .section__image {
     width: 400px;
-    justify-content: center;
-    
+    justify-content: center; 
 }
